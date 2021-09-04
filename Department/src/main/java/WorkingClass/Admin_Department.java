@@ -11,29 +11,25 @@ import Model.Super_Department;
  *
  * @author toast
  */
-public class Admin_Department extends Super_Department{
-   
-    
+public class Admin_Department extends Super_Department {
+
     @Override
-    public String departmentName()
-    {
-      return "Admin Department";  
+    public String departmentName() {
+        return "Admin Department";
     }
-    
+
     @Override
-    public String getTodaysWork()
-    {
+    public String getTodaysWork() {
         return "Complete your documents Submission";
     }
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String getWorkDeadline()
-    {
+    public String getWorkDeadline() {
         return "Complete by EOD";
     }
-    
+
 }

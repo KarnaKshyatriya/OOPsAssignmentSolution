@@ -12,39 +12,35 @@ import Model.Super_Department;
  * @author toast
  */
 public class Hr_Department extends Super_Department {
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String departmentName()
-    {
-       return "Hr Department "; 
+    public String departmentName() {
+        return "Hr Department ";
     }
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String getTodaysWork()
-    {
-       return "Fill today’s worksheet and mark your attendance"; 
+    public String getTodaysWork() {
+        return "Fill today’s worksheet and mark your attendance";
     }
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String getWorkDeadline()
-    {
+    public String getWorkDeadline() {
         return "Complete by EOD ";
     }
-    
-    public String doActivity()
-    {
+
+    public String doActivity() {
         return "team Lunch";
     }
-            }
+}

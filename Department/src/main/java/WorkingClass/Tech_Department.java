@@ -12,36 +12,32 @@ import Model.Super_Department;
  * @author toast
  */
 public class Tech_Department extends Super_Department {
-    
+
     @Override
-    public String departmentName()
-    {
-       return "Tech Department "; 
+    public String departmentName() {
+        return "Tech Department ";
     }
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String getTodaysWork()
-    {
-       return "Complete coding of module 1"; 
+    public String getTodaysWork() {
+        return "Complete coding of module 1";
     }
-    
+
     /**
      *
      * @return
      */
     @Override
-    public String getWorkDeadline()
-    {
+    public String getWorkDeadline() {
         return "Complete by EOD ";
     }
-    
-    public String getTechStackInformation()
-    {
+
+    public String getTechStackInformation() {
         return "core Java";
     }
-    
+
 }
